@@ -1,0 +1,79 @@
+body {
+	background-image: url('../img/fruit-loops.jpg');
+	background-repeat:no-repeat;
+	background-position:center top; 
+}
+
+.affix {
+    position: fixed; 
+    top: 0px; 
+	width: 940px;
+}
+
+    .pull-center {
+        text-align: center;
+    }
+    .pull-center > .nav {
+        float:none;
+        display:inline-block;
+        *display: inline; *zoom: 1;
+        height: 32px;
+    }
+
+#logo-wrapper {
+	text-align: center;
+	padding-right:50px;
+}
+
+.hero-unit {
+  padding: 20px;
+  margin-bottom: 50px;
+
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.hero-unit p {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+  color: inherit;
+}
+
+.navbar .nav > li {
+  float: right;
+}
+
+.navbar .nav > li > a {
+  text-align: center;
+  padding: 10px 15px 10px;
+  color: #3399CC;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+font-size: 20px;
+line-height: 24px;
+}
+
+h1 {
+	padding-top: 200px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+p#intro {
+	font-size:18px;
+	text-align:center;
+	padding-top: 10px;
+}
+
+#map-wrapper {
+	padding-top:100px;
+	text-align: center;
+}
+
